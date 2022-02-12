@@ -11,7 +11,7 @@ A few of the fucntions like 'printf' are missing but you can simulate them using
 
 When you select a 'board' - i.e. chip, you get full named access to every single one of it's registers.  This virtually eliminates the need to resort to inline assembler for tricky operations.
 
-The big advantage of the Arduino development environment is the use of bootloaders in any of the IC's that it can use.  This makes it 'one click' to download and run your program right from the source file editor.
+The big advantage of the Arduino development environment is the use of bootloaders in any of the IC's that it can use.  This makes it 'one click' to upload and run your program right from the source file editor.
 
 The 'Setup' and 'Loop' structure is a bit hokey but it is used to load the support code for their C++ extensions (delay,Serial.print, etc).  However...
 
